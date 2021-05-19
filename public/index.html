@@ -1,43 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Keona Kirby | Web Developer</title>
+</head>
+<body>
+    <!-- header section -->
+    <header class="header" >
+        <nav>
+            
+              <a href="#hero_section" >
+             <img src="./assets/images/headerLogo.svg"  alt="logo">
+            </a>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+            <a  href="" class="header_mobile_menu hide-for-desktop"> 
+               <span></span>
+               <span></span>
+               <span></span>
+           </a>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+             <div class = " header_links hide-for-mobile">
+                 <a href="#aboutme_section">About</a>
+                 <a href="#project_section">Projects</a>
+                 <a href="#contact_section">Contact</a>
+                 <a href="./assets/images/Keona Kirby Resume - Word.docx.pdf" target="_blank">Resume</a>
+             </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+          
+        </nav>
+        
+    </header>
+    <!-- hero section -->
+    <section class = "hero">
+        <div class="hero_container">
+
+            <div class="hero_box1">
+                <h1>Hello!</h1>
+                <h2>I'm Keona Kirby a <br>
+                    <span>Web Developer </span> . </h2>
+                <p>Front-End Developer | Freelancer</p>
+            </div>
+
+            <div class="hero_box2" >
+                <img class="hide-for-mobile"src="./assets/images/heroImg.svg" alt="hero image">
+            </div>
+
+        </div>
+        <a href="#aboutme_section">
+            <img src="./assets/images/Vectorarrow.svg" class="arrow_animation hero_arrow " alt="down arrow">
+        </a>
+
+  
+
+    </section>
+<!-- about me section -->
+    <section class="aboutme" id="aboutme_section">
+
+        <div class="aboutme_container">
+
+            <div class="aboutme_left">
+                    <h2>About Me</h2>
+                     
+                    <img src="./assets/images/250x250.svg" alt="shapes">
+                    
+                </div>
+                
+                <div class="aboutme_skill">
+                    <div class = "flex flex-w">
+                        <div class = "skills">Html</div>
+                            <div class = "skills">CSS</div class = "skills">
+                                <div class = "skills">SASS</div>
+                                <div class = "skills">Figma</div>
+                                <div class = "skills">MERN</div>
+                                <div class = "skills">Bootstrap</div>
+                                <div class="skills">React</div>
+                                <div class="skills">JavaScript</div>
+                            </div>
+                        <p> I am a web developer based in Dallas, TX with a passion for creating elegant user interfaces and unique experiences from scratch.
+                        </p>
+    </div>
+</div>
+    </section>
+<!-- project section -->
+    <section class="projects" id="project_section">
+        <h2>Projects</h2>
+<div class="projects_container">
+        <div>
+            <img src="./assets/images/Dashboard.png" alt="project image">
+        </div>
+        <div>
+        <h3>Weather Dashboard</h3>
+        <p>This project is a weather dashboard. Type in any city and it will display the current weather as well as a 5 day forcast.</p>
+        <button class="project_button btn" type = "button"> <a target="_blank" href=" https://keonak.github.io/WeatherDashApp/">
+            View Deployment</a></button>
+        <button class="project_button btn" type = "button"> <a target="_blank" href="https://github.com/KeonaK/WeatherDashApp">
+            View Repository</a></button>
+    </div>
+        
+    <div class="project-img">
+        <img src="./assets/images/Project2.png" alt="project image">
+    </div>
+            <div>
+            <h3>Ambience Market Watch and Currency Exchange</h3>
+            <p>This is a group project that is an application that combines different types of market data to allow users to make educated decisions on their future investments to their portfolios. With an ever-changing world where the dollar is becoming less used for international trading; we have also designed into the feature a currency exchange list for the most traded world currencies. Also, for the user’s convenience our team has introduced a currency exchange calculator to make conversions even easier. At the bottom of the application we have also included different commodities exchange pricing so that the user has a one stop shop to differing market portfolio options.</p>
+
+            <button class="project_button btn" type = "button"> <a target="_blank" href="https://cgjones0711.github.io/Market-CE-Group/">
+                View Deployment</a></button>
+
+            <button class="project_button btn" type = "button"> <a target="_blank" href="https://github.com/cgjones0711/Market-CE-Group">
+                View Repository</a></button>
+        </div>
+        
+        <div class="project-img">
+            <img src="./assets/images/250x250.svg" alt="project image">
+        </div>
+        <div>
+        <h3>Project 3</h3>
+        <p>project description</p>
+        <button class="project_button btn" type = "button"><a> View Deployment</a> </button>
+        <button class="project_button btn" type = "button"><a>View Repository</a></button>
+    </div>
+    </div>
+    </section>
+<!-- contact section -->
+    <section class="contact" id="contact_section">
+        <h2>Contact Me</h2>
+        <p>Hello again! Thank you for taking the time to vist my website. Feel free to reach out to me if you would like to work together or just connect. I look forward to hearing from you! </p>
+        
+
+    <div class="contact_icons">
+
+        <a target="_blank" href="http://linkedin.com/in/keona-k-218079188"><div class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill" style="color: white; font-size: 45px;"></div></a>
+        <a target="_blank" href="https://github.com/KeonaK"><div class="iconify" data-inline="false" data-icon="fa-brands:github-square" style="color: white; font-size: 45px;"></div><a>
+         <a href="mailto:keonakirbydev@gmail.com"><div class="iconify" data-inline="false" data-icon="clarity:email-solid" style="color: white; font-size: 50px;"></div></a>
+    </div>
+    
+    </section>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
 </html>

@@ -1,0 +1,45 @@
+.projects {
+  padding: 0 20rem 0 20rem; //top right bottom left
+
+  img {
+    height: 250px;
+    width: 250px;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 4rem;
+  }
+
+  h3 {
+    color: $darkBlue;
+  }
+
+  p {
+    margin-bottom: 3rem;
+  }
+
+  .projects_container {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    grid-template: repeat(3, 1fr) / 50% 50%;
+    row-gap: 4rem;
+    column-gap: 4rem;
+
+    .project_button {
+      height: 40px;
+      width: 200px;
+      margin: 5px;
+      background-color: $blue;
+      border-radius: 4px;
+
+      a {
+        color: white;
+      }
+    }
+    .project_button:hover {
+      opacity: 0.8;
+    }
+  }
+}

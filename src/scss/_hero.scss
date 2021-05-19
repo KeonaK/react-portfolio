@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  padding: $sidePadding;
+  height: 93vh;
+
+  &_container {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-size: 8rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+      > span {
+        color: $pink;
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+    //hero image
+    img {
+      height: 800px;
+      width: 400px;
+      // padding-top: 2.5rem;
+    }
+  }
+  //arrow image
+  &_arrow {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 90%;
+    height: 50px;
+    width: 50px;
+  }
+}

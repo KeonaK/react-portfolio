@@ -1,0 +1,88 @@
+html {
+  //resets
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  //resets
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $gray;
+  font-family: "Montserrat", sans-serif;
+}
+//font sizes
+h1 {
+  margin: 0;
+  font-size: $mainTitle;
+  font-weight: 700;
+  color: $darkBlue;
+}
+h2 {
+  margin: 0;
+  font-size: $title;
+  font-weight: 600;
+  color: $darkBlue;
+}
+h3 {
+  font-size: $subtitle;
+  font-weight: 600;
+  color: $darkBlue;
+}
+p {
+  font-size: $bodyCopy;
+  font-weight: 400;
+  color: $darkBlue;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+}
+
+//flexbox helper class
+.flex {
+  display: flex;
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-jc-c {
+    justify-content: center;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+  &-w {
+    flex-wrap: wrap;
+  }
+}
+
+// hide for classes
+.hide-for-mobile {
+  //hide for tablet and mobile
+  @include breakpoints-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  //hide for desktop
+  @include breakpoints-up(large) {
+    display: none;
+  }
+}

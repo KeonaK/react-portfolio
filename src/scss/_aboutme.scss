@@ -1,0 +1,27 @@
+.aboutme {
+  width: 100%;
+  background-color: $darkBlue;
+  color: white;
+  padding: 3rem 14rem 3rem 14rem;
+
+  &_container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 10em;
+
+    h2 {
+      color: white;
+    }
+
+    .skills {
+      font-weight: 600;
+      background-color: $pink;
+      padding: 0.5em;
+      margin: 0.5em;
+    }
+
+    p {
+      color: white;
+    }
+  }
+}
