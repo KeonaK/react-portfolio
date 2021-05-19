@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../images/headerLogo.svg";
-import "../scss/style.scss";
+import "../scss/style.css";
 import "../images/resume.pdf";
 
 function Header() {
@@ -11,12 +11,6 @@ function Header() {
         <a href="#hero_section">
           <img src="../src/images/headerLogo.svg" alt="logo" />
         </a>
-
-        {/* <a  href="" className="header_mobile_menu hide-for-desktop"> 
-           <span></span>
-           <span></span>
-           <span></span>
-       </a> */}
 
         <div className="header_links hide-for-mobile">
           <Link to="/about">About</Link>
