@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/headerLogo.svg";
+import "../images/headerLogo.svg";
 import "../scss/style.css";
 
 function Header() {
   return (
-    <div className="header">
+    <section className="header">
       <nav>
         <a href="#hero_section">
           <img src="../src/images/headerLogo.svg" alt="logo" />
@@ -29,7 +29,7 @@ function Header() {
           </a>
         </div>
       </nav>
-    </div>
+    </section>
   );
 }
 
