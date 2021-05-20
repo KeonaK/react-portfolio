@@ -1,5 +1,5 @@
 import React from "react";
-import "../../scss/style.css";
+import "../../App.scss";
 import "../../images/250x250.svg";
 
 function About() {

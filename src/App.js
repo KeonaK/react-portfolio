@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./App.scss";
 import Hero from "./components/Hero";
 import About from "./components/pages/About";
-import Work from "./components/work";
+import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 
