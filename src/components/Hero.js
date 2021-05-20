@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import "../images/heroImg.svg";
+import HeroImage from "../images/heroImg.svg";
+import Arrow from "../images/Vectorarrow.svg";
 import "../App.scss";
 
 function Hero() {
@@ -19,16 +20,12 @@ function Hero() {
           </div>
 
           <div className="hero_box2">
-            <img
-              className="hide-for-mobile"
-              src="../src/images/heroImg.svg"
-              alt="shapes"
-            />
+            <img className="hide-for-mobile" src={HeroImage} alt="shapes" />
           </div>
         </div>
         <a href="#aboutme_section">
           <img
-            src="../src/images/Vectorarrow.svg"
+            src={Arrow}
             className="arrow_animation hero_arrow "
             alt="down arrow"
           />

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import "../../App.scss";
-import "../../images/250x250.svg";
+import X from "../../images/250x250.svg";
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
           <div className="aboutme_left">
             <h2>About Me</h2>
 
-            <img src="../../images/250x250.svg" alt="placeholder" />
+            <img src={X} alt="placeholder" />
           </div>
 
           <div className="aboutme_skill">
