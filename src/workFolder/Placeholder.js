@@ -1,5 +1,5 @@
 import React from "react";
-import "../images/250x250.png";
+import "../images/250x250.svg";
 import "../App.js";
 
 function Placeholder() {
@@ -16,7 +16,7 @@ function Placeholder() {
         </button>
       </div>
       <div class="project-img">
-        <img src="../src/images/250x250.svg" alt="project image" />
+        <img src="../images/250x250.svg" alt="project image" />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.js";
+import "../App.scss";
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
           className="iconify"
           data-inline="false"
           data-icon="akar-icons:linkedin-fill"
-          style="color: white; font-size: 45px;"
+          style={{ color: white, fontSize: 45 + px }}
         ></div>
       </a>
 
@@ -18,7 +18,7 @@ function Footer() {
           className="iconify"
           data-inline="false"
           data-icon="fa-brands:github-square"
-          style="color: white; font-size: 45px;"
+          style={{ color: white, fontSize: 45 + px }}
         ></div>{" "}
       </a>
 
@@ -27,7 +27,7 @@ function Footer() {
           className="iconify"
           data-inline="false"
           data-icon="clarity:email-solid"
-          style="color: white; font-size: 50px;"
+          style={{ color: white, fontSize: 50 + px }}
         ></div>
       </a>
     </div>

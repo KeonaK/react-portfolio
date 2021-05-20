@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import "../images/heroImg.svg";
-import "../../App.scss";
+import "../App.scss";
 
 function Hero() {
   return (

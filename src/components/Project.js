@@ -1,5 +1,10 @@
 import React from "react";
-import "../../App.scss";
+import "../App.scss";
+import Weather from "../workFolder/Weather";
+import Market from "../workFolder/Market";
+import Portfolio from "../workFolder/Portfolio";
+import Employee from "../workFolder/Employee";
+import Placeholder from "../workFolder/Placeholder";
 
 function Project(props) {
   switch (props.project) {
