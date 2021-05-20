@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/pages/About";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/contact" component={Contact} />
-        <Contact />
+
+        <Footer />
       </div>
     </Router>
   );

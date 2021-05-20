@@ -9,7 +9,7 @@ function Footer() {
           className="iconify"
           data-inline="false"
           data-icon="akar-icons:linkedin-fill"
-          style={{ color: "white", fontSize: 45 }}
+          style={{ color: "black", fontSize: 45 }}
         ></div>
       </a>
 
@@ -18,7 +18,7 @@ function Footer() {
           className="iconify"
           data-inline="false"
           data-icon="fa-brands:github-square"
-          style={{ color: "white", fontSize: 45 }}
+          style={{ color: "black", fontSize: 45 }}
         ></div>{" "}
       </a>
 
@@ -27,7 +27,7 @@ function Footer() {
           className="iconify"
           data-inline="false"
           data-icon="clarity:email-solid"
-          style={{ color: "white", fontSize: 50 }}
+          style={{ color: "black", fontSize: 50 }}
         ></div>
       </a>
     </div>
