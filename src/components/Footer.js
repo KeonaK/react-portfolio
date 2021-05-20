@@ -4,7 +4,7 @@ import "../App.scss";
 function Footer() {
   return (
     <div className="contact_icons">
-      <a target="_blank" href="http://linkedin.com/in/keona-k-218079188">
+      <a target="_blank" href="http://linkedin.com/in/keona-kirby">
         <div
           className="iconify"
           data-inline="false"
