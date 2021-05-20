@@ -8,9 +8,9 @@ function Header() {
   return (
     <section className="header">
       <nav>
-        <a to="/">
+        <Link to="/">
           <img src={Logo} alt="logo" />
-        </a>
+        </Link>
 
         <div className="header_links hide-for-mobile">
           <Link to="/about">About</Link>
