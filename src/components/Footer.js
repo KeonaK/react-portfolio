@@ -4,7 +4,11 @@ import "../App.scss";
 function Footer() {
   return (
     <div className="contact_icons">
-      <a target="_blank" href="http://linkedin.com/in/keona-kirby">
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="http://linkedin.com/in/keona-kirby"
+      >
         <div
           className="iconify"
           data-inline="false"
@@ -13,7 +17,7 @@ function Footer() {
         ></div>
       </a>
 
-      <a target="_blank" href="https://github.com/KeonaK">
+      <a target="_blank" rel="noreferrer" href="https://github.com/KeonaK">
         <div
           className="iconify"
           data-inline="false"

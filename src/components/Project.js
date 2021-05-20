@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.scss";
-import Work from "../components/pages/Work";
 import Weather from "../workFolder/Weather";
 import Market from "../workFolder/Market";
 import Portfolio from "../workFolder/Portfolio";

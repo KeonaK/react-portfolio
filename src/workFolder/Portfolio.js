@@ -1,12 +1,12 @@
 import React from "react";
-import "../images/portfolioImage.png";
+import PortImg from "../images/portfolioImage.png";
 import "../App.js";
 
 function Portfolio() {
   return (
     <div>
       <div class="project-img">
-        <img src="../images/portfolioImage.png" alt="project" />
+        <img src={PortImg} alt="project" />
       </div>
       <div>
         <h3>Portfolio</h3>
@@ -16,6 +16,7 @@ function Portfolio() {
           {" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://keonak.github.io/homework2-portfolio/"
           >
             View Deployment
@@ -26,6 +27,7 @@ function Portfolio() {
           {" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/KeonaK/homework2-portfolio"
           >
             View Repository

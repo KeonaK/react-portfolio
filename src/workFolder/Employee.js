@@ -1,5 +1,5 @@
 import React from "react";
-import "../images/employee-directory.png";
+import Directory from "../images/employee-directory.png";
 import "../App.js";
 
 function Employee() {
@@ -16,6 +16,7 @@ function Employee() {
           {" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://keonak.github.io/employee-directory/"
           >
             View Deployment
@@ -26,6 +27,7 @@ function Employee() {
           {" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/KeonaK/employee-directory"
           >
             View Repository
@@ -33,7 +35,7 @@ function Employee() {
         </button>
       </div>
       <div class="project-img">
-        <img src="../src/images/employee-directory" alt="project" />
+        <img src={Directory} alt="project" />
       </div>
     </div>
   );

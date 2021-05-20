@@ -1,12 +1,12 @@
 import React from "react";
-import "../images/Project2.png";
+import Ambience from "../images/Project2.png";
 import "../App.js";
 
 function Market() {
   return (
     <div>
       <div class="project-img">
-        <img src="../images/Project2.png" alt="project image" />
+        <img src={Ambience} alt="project" />
       </div>
       <div>
         <h3>Ambience Market Watch and Currency Exchange</h3>
@@ -27,6 +27,7 @@ function Market() {
           {" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://cgjones0711.github.io/Market-CE-Group/"
           >
             View Deployment
@@ -37,6 +38,7 @@ function Market() {
           {" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/cgjones0711/Market-CE-Group"
           >
             View Repository

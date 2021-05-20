@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.scss";
 import Hero from "./components/Hero";
+import Header from "./components/Header";
 import About from "./components/pages/About";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router>
       <div>
+        <Header />
         <Route exact path="/" component={Hero} />
         <Route exact path="/react-portfolio" component={Hero} />
         <Route exact path="/hero" component={Hero} />

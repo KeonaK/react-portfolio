@@ -1,12 +1,12 @@
 import React from "react";
-import "../images/Dashboard.png";
+import Dash from "../images/Dashboard.png";
 import "../App.scss";
 
 function Weather() {
   return (
     <div>
       <div>
-        <img src="../images/Dashboard.png" alt="project image" />
+        <img src={Dash} alt="project" />
       </div>
       <div>
         <h3>Weather Dashboard</h3>
@@ -22,7 +22,11 @@ function Weather() {
         </button>
         <button class="project_button btn" type="button">
           {" "}
-          <a target="_blank" href="https://github.com/KeonaK/WeatherDashApp">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/KeonaK/WeatherDashApp"
+          >
             View Repository
           </a>
         </button>

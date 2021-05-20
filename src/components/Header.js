@@ -16,7 +16,7 @@ function Header() {
           <Link to="/about">About</Link>
           <Link to="/project">Projects</Link>
           <Link to="/contact">Contact</Link>
-          <a href={Resume} target="_blank">
+          <a href={Resume} target="_blank" rel="noreferrer">
             Resume
           </a>
         </div>
