@@ -11,7 +11,8 @@ function App() {
   return (
     <Router>
       <div>
-        <Route path="/" component={Hero} />
+        <Route exact path="/" component={Hero} />
+        <Route exact path="/react-portfolio" component={Hero} />
         <Route exact path="/hero" component={Hero} />
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
