@@ -6,6 +6,9 @@ function Placeholder() {
   return (
     <div>
       <div>
+        <div class="project-img">
+          <img src={X} alt="project" />
+        </div>
         <h3>Project 5</h3>
         <p>project description</p>
         <button class="project_button btn" type="button">
@@ -14,9 +17,6 @@ function Placeholder() {
         <button class="project_button btn" type="button">
           View Repository
         </button>
-      </div>
-      <div class="project-img">
-        <img src={X} alt="project" />
       </div>
     </div>
   );

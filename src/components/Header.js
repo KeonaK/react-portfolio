@@ -14,7 +14,7 @@ function Header() {
 
         <div className="header_links hide-for-mobile">
           <Link to="/about">About</Link>
-          <Link to="/project">Projects</Link>
+          <Link to="/work">Work</Link>
           <Link to="/contact">Contact</Link>
           <a href={Resume} target="_blank" rel="noreferrer">
             Resume

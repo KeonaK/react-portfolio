@@ -6,6 +6,9 @@ function Employee() {
   return (
     <div>
       <div>
+        <div class="project-img">
+          <img src={Directory} alt="project" />
+        </div>
         <h3>Employee Directory</h3>
         <p>
           This app allows the user to view the entire employee directory at once
@@ -33,9 +36,6 @@ function Employee() {
             View Repository
           </a>
         </button>
-      </div>
-      <div class="project-img">
-        <img src={Directory} alt="project" />
       </div>
     </div>
   );

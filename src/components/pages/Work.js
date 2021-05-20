@@ -6,7 +6,7 @@ function Work() {
   return (
     <div>
       <section className="projects" id="project_section">
-        <h2>Projects</h2>
+        <h2>My Work</h2>
         <div className="projects_container">
           <Project project="weather" />
           <Project project="market" />
