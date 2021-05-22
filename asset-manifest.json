@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a9de252b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.021e8859.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.021e8859.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.dcbe9f21.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dcbe9f21.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
     "static/js/2.867f8a91.chunk.js": "/react-portfolio/static/js/2.867f8a91.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Project2.e4cf300e.png": "/react-portfolio/static/media/Project2.e4cf300e.png",
     "static/media/Vectorarrow.1a75ebc7.svg": "/react-portfolio/static/media/Vectorarrow.1a75ebc7.svg",
     "static/media/employee-directory.b3e44172.png": "/react-portfolio/static/media/employee-directory.b3e44172.png",
+    "static/media/googleBooks.9f923e69.png": "/react-portfolio/static/media/googleBooks.9f923e69.png",
     "static/media/headerLogo.03154d0e.svg": "/react-portfolio/static/media/headerLogo.03154d0e.svg",
     "static/media/heroImg.d34585d3.svg": "/react-portfolio/static/media/heroImg.d34585d3.svg",
     "static/media/portfolioImage.0eb3e7ab.png": "/react-portfolio/static/media/portfolioImage.0eb3e7ab.png",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.fed61080.js",
     "static/js/2.867f8a91.chunk.js",
     "static/css/main.a9de252b.chunk.css",
-    "static/js/main.021e8859.chunk.js"
+    "static/js/main.dcbe9f21.chunk.js"
   ]
 }
