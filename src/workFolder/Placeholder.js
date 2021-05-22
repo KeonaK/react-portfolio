@@ -1,5 +1,5 @@
 import React from "react";
-import Google from "../images/250x250.svg";
+import Google from "../images/googleBooks.png";
 import "../App.js";
 
 function Placeholder() {
